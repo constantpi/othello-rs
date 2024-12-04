@@ -1,8 +1,5 @@
 use rayon::iter::{IntoParallelIterator, ParallelIterator};
-
 use super::proto::{Color, Move};
-
-// use crate::play::Board;
 use crate::bit_othello::Board;
 
 fn reverse_value(value: Option<i32>) -> Option<i32> {
